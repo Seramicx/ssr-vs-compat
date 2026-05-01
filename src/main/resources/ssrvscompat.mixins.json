@@ -1,0 +1,16 @@
+{
+    "required": true,
+    "minVersion": "0.8.5",
+    "package": "com.ssrvscompat.mixin",
+    "refmap": "ssrvscompat.refmap.json",
+    "compatibilityLevel": "JAVA_17",
+    "client": [
+        "CameraMoveInvoker",
+        "MixinSsrLevelRendererForVs",
+        "MixinSuppressSsrVsIncompatWarning",
+        "MixinSyncPlayerToSsrOnVsShip"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
