@@ -1,5 +1,7 @@
 # Shoulder Surfing Reloaded x Valkyrien Skies Compat
 
+![Showcase](assets/showcase.gif)
+
 Makes [Shoulder Surfing Reloaded](https://www.curseforge.com/minecraft/mc-mods/shoulder-surfing-reloaded) and [Valkyrien Skies 2](https://www.curseforge.com/minecraft/mc-mods/valkyrien-skies) actually work together when you're riding a mount on a VS / Eureka ship. Forge 1.20.1.
 
 SSR officially marks VS as incompatible. The two fight over camera control: SSR's decoupled camera and VS's ship-mounted camera each try to take over, and the result is funky angles, the camera not following your mouse, and the player rendering centered instead of off the shoulder. This patches over all of that.

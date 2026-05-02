@@ -55,10 +55,7 @@ repositories {
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
-    // Shoulder Surfing Reloaded 4.22.7 — hard runtime dep, compileOnly here.
     compileOnly fg.deobf("curse.maven:shoulder-surfing-reloaded-243190:7974108")
-
-    // VS2 accessed via reflection only — no compile-time dep needed.
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 }
